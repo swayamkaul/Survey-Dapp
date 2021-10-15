@@ -5,8 +5,8 @@ const responders = params.get('responders');
 
 console.log('resp:',resp,'responders:',responders);
 
-// import { providers } from "ethers";
-// import { init } from "@textile/eth-storage";
+ import { providers } from "ethers";
+ import { init } from "@textile/eth-storage";
 
 const SuperfluidSDK = require("@superfluid-finance/js-sdk");
 const Web3 = require("web3");
