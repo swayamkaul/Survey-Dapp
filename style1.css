@@ -31,6 +31,7 @@
 }
 .boxes{
   border: 5px solid white;
+  border-radius: 8px;
   width: 150px;
   height: 200px;
   display: flex;
@@ -43,6 +44,9 @@
   background-size: cover;
   background-position: center;
   /*background-color: #334145; */ 
+}
+.text{
+  font-size: 16px
 }
 .box-content{
   background-color: white;
