@@ -39,7 +39,7 @@ for (var i = 0; i < titlearray.length; i++) {
       <div class="box-content">
         <h2>${titlearray[i]}</h2>
 
-        <a class="showmore" href="http://localhost:3000/">Save Responses</a>
+        <a class="showmore" href="http://127.0.0.1:5500/SaveResponses.html?fname=${titlearray[i]}">Save Responses</a>
    
             </div>
     </div>` + fetch ; 
