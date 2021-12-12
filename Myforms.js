@@ -37,7 +37,7 @@ for (var i = 0; i < titlearray.length; i++) {
   var fetch = document.querySelector('.container').innerHTML;  
   dynamic.innerHTML = `<div id="cards${i}" class="boxes">
       <div class="box-content">
-        <h2>${titlearray[i]}</h2>
+        <h2 class="text">${titlearray[i]}</h2>
 
         <a class="showmore" href="http://127.0.0.1:5500/SaveResponses.html?fname=${titlearray[i]}">Save Responses</a>
    
