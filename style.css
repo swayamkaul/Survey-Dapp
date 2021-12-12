@@ -30,6 +30,30 @@ input[type="text"]:focus {
   outline: none;
 }
 
+.but{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.but1{
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn{
+  margin-top: 0.75rem;
+  background-color: #f0f5ff !important;
+  color: black !important;
+  padding: 0.5rem;
+  width: 30%;
+  border: none;
+  border-radius: 20px;
+}
+
 .controls {
   width: 294px;
   margin: 15px auto;
